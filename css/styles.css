@@ -221,15 +221,13 @@ header {
   margin-left: 0;
 }
 .fon-dop-img {
-  display: block
+  display: block;
   width: 270px;
   height: 120px;
   background-color: rgba(245, 244, 250, 1);
 }
 .fon-dop-img img {
   display: flex;
-  margin-top: auto;
-  margin-bottom: auto;
   margin-right: auto;
   margin-left: auto;
   background-color: rgba(245, 244, 250, 1);
@@ -309,6 +307,32 @@ header {
   line-height: 1.18;
 
   margin-top: 10px;
+}
+
+/* best clients */
+.clients {
+  display: flex;
+  padding-bottom: 94px;
+}
+.best-clients {
+  display: flex;
+  margin-right: 30px;
+
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  cursor: pointer;
+  background-color: #fff;
+}
+.best-clients:hover,
+.best-clients:focus {
+  border: 1px solid var(--akcent);
+}
+.best-clients-logo:hover,
+.best-clients-logo:focus {
+  color: var(--akcent);
 }
 
 /* content two page---------------------------------------- */
