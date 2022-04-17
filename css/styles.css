@@ -353,6 +353,7 @@ header {
 }
 .text-info-photo {
   display: inline-block;
+  padding-left: 24px;
 }
 
 .photo-text {
