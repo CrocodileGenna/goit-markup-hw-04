@@ -405,7 +405,7 @@ header {
   background-image: url(../images/icon.svg/linkedin\ 1.svg);
 }
 
-/* .div2{
+.div2{
   display: flex;
   width: 206px;
   margin-left: 32px;
@@ -418,15 +418,16 @@ header {
 }
 .div2 .item{
   display: inline-block;
-  padding: 0;
   width: 44px;
   height: 44px;
+  padding: 0;
+  border: none;
 }
 .div2 .item .icon{
   display: inline-block;
 
   outline: 1px solid tomato;
-} */
+}
 
 
 /* permanent-clients --------------------------------------- */
