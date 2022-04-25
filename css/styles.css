@@ -62,11 +62,6 @@ b {
   text-align: center;
   letter-spacing: 0.06em;
 }
-.hero .primary:hover,
-.hero .primary:focus {
-  color: var(--primery-text-cplor);
-  background-color: var(--primary-wite-color);
-}
 
 /* button two page ---------------------------------------- */
 .two-page.conteiner .list.main {
@@ -369,30 +364,46 @@ header {
 
   align-items: center;
 
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 }
 
 .employees-div .item {
   display: inline-block;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-
-  content: "";
+  /* content: "";
   background-position: center;
   background-size: 20px;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 }
-.employees-div .item:hover,
-.employees-div .item:focus{
-  background-color:var(--akcent);
-}
+
 .employees-div .item:not(:last-child) {
   margin-right: 10px;
 }
-.employees-div .item.insta {
+.employees-div .item .items{
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+color: #afb1b8;
+
+  /* outline:  1px solid tomato; */
+}
+.employees-div .item .items:hover,
+.employees-div .item .items:focus{
+  color: #fff;
+  background-color:var(--akcent);
+}
+.employees-div .items .icon{
+  display: inline-block;
+  margin-top: 12px;
+  /* outline: 1px solid tomato; */
+}
+.employees-div .items .icon:hover,
+.employees-div .items .icon:focus{
+fill: currentColor;
+}
+/* .employees-div .item.insta {
   background-image: url(../images/icon.svg/instagram\ 2.svg);
 }
 .employees-div .item.twit {
@@ -427,7 +438,7 @@ header {
   display: inline-block;
 
   outline: 1px solid tomato;
-}
+} */
 
 
 /* permanent-clients --------------------------------------- */
