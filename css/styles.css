@@ -395,7 +395,7 @@ header {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  color: #afb1b8;
+  color:var(--secondary-color);
 
   /* outline:  1px solid tomato; */
 }
@@ -407,12 +407,14 @@ header {
 .employees-div .items .icon{
   display: inline-block;
   margin-top: 12px;
+  fill:currentColor;
+  
   /* outline: 1px solid tomato; */
 }
-.employees-div .items .icon:hover,
+/* .employees-div .items .icon:hover,
 .employees-div .items .icon:focus{
- fill: currentColor; 
-}
+ fill: currentColor;
+} */
 /* .employees-div .item.insta {
   background-image: url(../images/icon.svg/instagram\ 2.svg);
 }
@@ -618,6 +620,10 @@ footer {
   background-color:var(--akcent);
 }
 
+.footer .dop-info .icon{
+  margin-left: 12px;
+  margin-top: 12px;
+}
 .footer .dop-info .icon:hover,
 .footer .dop-info .icon:focus{
   fill: currentColor;
