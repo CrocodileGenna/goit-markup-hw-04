@@ -161,7 +161,6 @@ header {
 }
 .site-auth .item:not(:last-child) {
   margin-right: 30px;
-  align-items: center;
 }
 /* .site-auth .item + .item {
   margin-left: 30px;
@@ -186,7 +185,7 @@ header {
 .site-auth .link:focus {
   color: var(--akcent);
 }
-.site-auth .link .item{
+.site-auth .link .items{
   display: inline-block;
   padding: 0;
   margin-right: 10px;
@@ -480,6 +479,7 @@ header {
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   color: #AFB1B8;
+  cursor: pointer;
 }
 .permanent-clients .items:hover,
 .permanent-clients .items:focus{
@@ -494,6 +494,8 @@ header {
   margin-top: 16px;
   margin-left: 32px;
   fill: currentColor;
+
+  outline: 1px solid tomato;
 }
 
 /* content two page ---------------------------------------- */
@@ -600,7 +602,6 @@ footer {
 
 .footer .dop-info .list {
   display: flex;
-
   align-items: center;
 
   /* outline: 1px solid tomato; */
@@ -630,6 +631,8 @@ footer {
   margin-left: 12px;
   margin-top: 12px;
   fill: currentColor;
+
+  outline: 1px solid tomato;
 }
 
 /* .footer .dop-info .icon:hover,
