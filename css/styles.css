@@ -599,6 +599,10 @@ footer {
   display:inline-block;
   padding-top: 15px;
   padding-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
   color: var(--primary-wite-color);
 }
 
