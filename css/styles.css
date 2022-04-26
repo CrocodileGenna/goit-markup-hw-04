@@ -470,19 +470,20 @@ header {
 .permanent-clients .list{
   display: flex;
 }
-.permanent-clients .item{
+
+.permanent-clients .item:not(:last-child){
+  margin-right: 30px;
+}
+.permanent-clients .items{
+  display: inline-block;
   width: 170px;
   height: 92px;
   border: 1px solid #AFB1B8;
-  box-sizing: border-box;
   border-radius: 4px;
 }
-.permanent-clients .item:hover,
-.permanent-clients .item:focus{
+.permanent-clients .items:hover,
+.permanent-clients .items:focus{
   border: 1px solid var(--akcent)
-}
-.permanent-clients .item:not(:last-child){
-  margin-right: 30px;
 }
 
 .permanent-clients .item .logo{
