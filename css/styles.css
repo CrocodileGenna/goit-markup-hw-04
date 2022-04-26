@@ -228,6 +228,7 @@ header {
   display: block;
   background-image: url(../images/Img-Hero.jpg);
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .content .hero-text {
@@ -479,7 +480,7 @@ header {
   height: 92px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  color: #AFB1B8;
+  color: rgba(175, 177, 184, 1);
 }
 .permanent-clients .items:hover,
 .permanent-clients .items:focus{
@@ -487,7 +488,7 @@ header {
   border: 1px solid var(--akcent)
 }
 
-.permanent-clients .item .logos{
+.permanent-clients .logos{
   display: inline-block;
   padding: 0;
   width: 106px;
