@@ -632,7 +632,7 @@ footer {
   margin-top: 12px;
   fill: currentColor;
 
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 }
 
 /* .footer .dop-info .icon:hover,
