@@ -192,11 +192,8 @@ header {
   margin-right: 10px;
   width: 16px;
   height: 16px;
+  
   fill: currentColor;
-}
-.site-auth .link .item:hover,
-.site-auth .link .item:focus {
-  color: var(--akcent);
 }
 
 /* .site-auth .link::before {
@@ -383,10 +380,6 @@ header {
 
 .employees-div .item {
   display: inline-block;
-  /* content: "";
-  background-position: center;
-  background-size: 20px;
-  background-repeat: no-repeat; */
 
   /* outline: 1px solid tomato; */
 }
@@ -394,7 +387,7 @@ header {
 .employees-div .item:not(:last-child) {
   margin-right: 10px;
 }
-.employees-div .item .items{
+.employees-div .items{
   display: inline-block;
   width: 44px;
   height: 44px;
@@ -404,8 +397,8 @@ header {
 
   /* outline:  1px solid tomato; */
 }
-.employees-div .item .items:hover,
-.employees-div .item .items:focus{
+.employees-div .items:hover,
+.employees-div .items:focus{
   color: #fff;
   background-color:var(--akcent);
 }
@@ -413,16 +406,11 @@ header {
   display: inline-block;
   width:20px;
   height:20px;
+  
   margin-top: 12px;
   fill:currentColor;
   
   /* outline: 1px solid tomato; */
-}
-
-.employees-div .items .icon:hover,
-.employees-div .items .icon:focus{
-  color: #fff;
-  background-color:var(--akcent);
 }
 /* .employees-div .items .icon:hover,
 .employees-div .items .icon:focus{
