@@ -194,6 +194,10 @@ header {
   height: 16px;
   fill: currentColor;
 }
+.site-auth .link .item:hover,
+.site-auth .link .item:focus {
+  color: var(--akcent);
+}
 
 /* .site-auth .link::before {
   width: 16px;
@@ -396,6 +400,7 @@ header {
   height: 44px;
   border-radius: 50%;
   color:var(--secondary-color);
+  background-color: #fff;
 
   /* outline:  1px solid tomato; */
 }
@@ -406,10 +411,18 @@ header {
 }
 .employees-div .items .icon{
   display: inline-block;
+  width:20px;
+  height:20px;
   margin-top: 12px;
   fill:currentColor;
   
   /* outline: 1px solid tomato; */
+}
+
+.employees-div .items .icon:hover,
+.employees-div .items .icon:focus{
+  color: #fff;
+  background-color:var(--akcent);
 }
 /* .employees-div .items .icon:hover,
 .employees-div .items .icon:focus{
