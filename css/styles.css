@@ -192,7 +192,6 @@ header {
   margin-right: 10px;
   width: 16px;
   height: 16px;
-  
   fill: currentColor;
 }
 
@@ -480,9 +479,11 @@ header {
   height: 92px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
+  color: #AFB1B8;
 }
 .permanent-clients .items:hover,
 .permanent-clients .items:focus{
+  color:var(--akcent);
   border: 1px solid var(--akcent)
 }
 
@@ -490,6 +491,9 @@ header {
   display: inline-block;
   width: 106px;
   height: 60px;
+  margin-top: 16px;
+  margin-right: 32px;
+  fill: currentColor;
 }
 
 /* content two page ---------------------------------------- */
